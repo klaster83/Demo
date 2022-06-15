@@ -1,5 +1,6 @@
-from datetime import time
+import datetime
 
 print("hello world!")
 
-print(time)
+now = datetime.datetime.now()
+print(f"Type: {type(now)}, time: {now}")
